@@ -552,7 +552,7 @@ input::-ms-input-placeholder {
     z-index: 300;
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-    background-color:rgba(34, 61, 97, 0.64);
+    background-color:rgba(88, 47, 14 0.64);
     -webkit-transition:all .3s;
     -moz-transition:all .3s;
     transition:all .3s;
