@@ -152,7 +152,7 @@ h5 {
     line-height: 2rem;
 }
 h1 {
-    font-family: 'Open Sans', sans-serif;
+   font-family: 'Labrada', sans-serif;
     font-weight: 700;
     font-size: 5.143rem;
     line-height: 5.5rem;
@@ -160,7 +160,7 @@ h1 {
     letter-spacing: .4rem;
 }
 h2 {
-    font-family: 'Source Sans Pro', sans-serif;
+   font-family: 'Labrada', sans-serif;
     font-size:2.571rem;
     line-height: 3rem;
     text-transform: uppercase;
@@ -168,15 +168,15 @@ h2 {
 
 }
 h3 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size:1.714rem;
+   font-family: 'Labrada', sans-serif;  
+   font-size:1.714rem;
     line-height: 2.5rem; 
     color:#fff;
     font-weight: 400;
 }
 h4 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+   font-family: 'Labrada', sans-serif;
+   font-weight: 600;
     font-size: 1.286rem;
     line-height: 2rem;
     margin-bottom: 1rem;
@@ -223,7 +223,7 @@ p:last-child {
 }
 
 .lightbg {
-    background-color: #7f5539;
+    background-color: #ede0d4;
 }
 .transition {
     -webkit-transition: all 300ms linear;
