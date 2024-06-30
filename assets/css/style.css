@@ -27,7 +27,7 @@ body {
     right: 0;
     bottom: 0;
     background-color: #fefefe;
-    z-index: 99999;
+    z-index: ede0d4;
     height: 100%;
     width: 100%;
     overflow: hidden !important;
@@ -429,7 +429,7 @@ Button
     padding: 1.125rem 3rem;
 }
 .btn-md{
-    background: #999999;
+    background: #ede0d4;
     padding: 1rem 2rem;
     border: 1px solid transparent;
 }
@@ -934,7 +934,7 @@ input::-ms-input-placeholder {
     color:#9C6644;
 }
 .main_service .single_service.single_service_text .single_service_right_text p{
-    color:#999999;
+    color:#ede0d4;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
 }
