@@ -205,7 +205,7 @@ p:last-child {
 .home-wrap h4,
 .home-wrap h5,
 .home-wrap p {
-    color: #ffffff;
+    color: #ede0d4;
     /*font-family: 'roboto', sans-serif;*/
 }
 .textwhite {
@@ -219,7 +219,7 @@ p:last-child {
 }
 .colorsbg {
     background: #5e9a28;
-    color: #ffffff;
+    color: #ede0d4;
 }
 
 .lightbg {
