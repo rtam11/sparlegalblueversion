@@ -335,38 +335,59 @@
 
     Create Access Key here 👉 https://web3forms.com/
  -->
+<form action="https://api.web3forms.com/submit" method="POST">
 
-<section class="contact-section">
-  <div class="contact-intro">
-    <h2 class="contact-title">Get in Touch</h2>
-    <p class="contact-description">
-      Fill out the form below and we'll get back to you as soon as possible.
-    </p>
-  </div>
+    <!-- REQUIRED: Your Access key here. Don't worry this can be public -->
+    <!-- Create your Access key here: https://web3forms.com/ -->
+    <!-- <input type="hidden" name="apikey" value="YOUR_ACCESS_KEY_HERE"> -->
+    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
 
-  <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+    <!-- Optional: Can be type="hidden" or type="text" for subject -->
+    <input type="hidden" name="subject" value="New Submission from Web3Forms">
+  
+    <!-- Optional: From Name you want to see in the email
+          Default is "Notifications". you can overwrite here -->
+    <input type="hidden" name="from_name" value="Your Website Name">
+  
+    <!-- Optional: To send the form submission as CC email -->
+    <input type="hidden" name="ccemail" value="partner@example.com">
 
-    <input type="hidden" name="access_key" value="7fcf6040-840b-47e1-9899-a51b2a5fe22c" />
-    <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
-    <input type="hidden" name="from_name" value="My Website" />
-    <!-- More custom ization options available in the docs: https://docs.web3forms.com -->
+    <!-- Optional: default replyto will be "email" (if available), 
+         you may overwrite here -->
+    <input type="hidden" name="replyto" value="customer@example.com">
 
-    <div class="form-group-container">
-      <div class="form-group">
-        <label for="name" class="form-label">Name</label>
-        <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
-      </div>
-      <div class="form-group">
-        <label for="email" class="form-label">Email</label>
-        <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
-      </div>
-      <div class="form-group">
-        <label for="phone" class="form-label">Phone</label>
-        <input id="phone" name="phone" class="form-input" placeholder="+1 (234) 56789" type="text" />
-      </div>
-      <div class="form-group">
-        <label for="message" class="form-label">Message</label>
-        <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+    <!-- Required: if submitting without Javascript 
+         (because by default web3form outputs json) -->
+
+    <!-- If javascript, use "window.location.hash" for redirects -->
+    <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+    <!-- Optional: But Recommended: To Prevent SPAM Submission. 
+         Make sure its hidden by default -->
+    <input type="checkbox" name="botcheck" id="" style="display: none;">
+    
+    <!-- Webhooks: Send your form data to Notion, Google Sheets or Zapier.
+         This feature available to PRO & Starter Plan users only -->
+    <input type="hidden" name="webhook" value="WEBHOOK_URL_HERE" />
+
+    <!-- Google reCaptcha v3: To Prevent SPAM Submission.PRO Plan only -->
+    <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+    
+    <!-- Attachments: Make sure the <form> has enctype="multipart/form-data"
+         This feature available to PRO Plan users only -->
+    <input type="file" name="attachment" />
+
+    <!-- Custom Form Data: 
+     Then you can include your own form data you wish to receive in email. -->
+    <input type="email" name="email" required>
+    <input type="text" name="First Name" required>
+    <input type="text" name="Phone Number" required>
+    <textarea name="message" cols="30" rows="10" required></textarea>
+
+    <button type="submit">Submit Form</button>
+
+</form>
+
       </div>
     </div>
     <button class="form-submit" type="submit">Send Message</button>
