@@ -384,13 +384,13 @@ Button
 .btn-primary.disabled,
 .btn-primary.disabled:hover {
     color: #ffffff;
-    background-color: #e74c3c;
-    border-color: #e74c3c;
+    background-color: #9C6644;
+    border-color: #9C6644;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #e74c3c;
-    border-color: #e74c3c;
+    background-color: #9C6644;
+    border-color: #9C6644;
 }
 .btn {
     display: inline-block;
@@ -403,7 +403,7 @@ Button
     border-radius: 0px;
     margin-top: 20px;
     transition: .5s;
-    border: 1px solid #e74c3c;
+    border: 1px solid #9C6644;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     padding: 0.8rem 3rem;
@@ -571,15 +571,15 @@ input::-ms-input-placeholder {
     margin: 15px auto;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-    color:#e74c3c;
+    color:#9C6644;
     background: transparent;
 }
 .main_menu_bg .navbar {}
 
 .main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
-    color: #e74c3c;
+    color: #9C6644;
     padding-bottom: 22px;
-    border-bottom: 1px solid #e74c3c;
+    border-bottom: 1px solid #9C6644;
     background: transparent;
 
 }
@@ -622,12 +622,12 @@ input::-ms-input-placeholder {
 
 /*.dropdown-menu .navbar-form .form-group input[type="text"]{
     background-color:rgba(34, 61, 97, 0.68);
-    border: 1px solid #e74c3c;
-    color:#e74c3c;
+    border: 1px solid #9C6644;
+    color:#9C6644;
     width: 300px;
 }
 .dropdown-menu .navbar-form .form-group .form-control::-webkit-input-placeholder{
-    color: #e74c3c;
+    color: #9C6644;
     opacity: 1; 
 }
 .dropdown-menu .navbar-form {
@@ -648,7 +648,7 @@ input::-ms-input-placeholder {
 }
 .scrooldown a i{
     font-size:1.5rem;
-    color:#e74c3c;
+    color:#9C6644;
 }
 
 
@@ -718,7 +718,7 @@ input::-ms-input-placeholder {
 .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
     color: #fff;
     outline: none;
-    background: #e74c3c;
+    background: #9C6644;
 }
 .slick-arrow{
     background: #ddd;
@@ -729,7 +729,7 @@ input::-ms-input-placeholder {
     height: 40px;
     line-height: 40px;
     color:#fff;
-    background: #e74c3c;
+    background: #9C6644;
 }
 .main_home_slider i.nextprevleft{
     width:40px;
@@ -761,11 +761,11 @@ input::-ms-input-placeholder {
 }
 .main_home_slider i.nextprevleft:hover{
     color:#fff;
-    background: #e74c3c;
+    background: #9C6644;
 }
 .main_home_slider i.nextprevright:hover{
     color: #fff;
-    background: #e74c3c;
+    background: #9C6644;
 }
 
 .contact-section {
@@ -849,14 +849,14 @@ input::-ms-input-placeholder {
 .main_feature{}
 .main_feature .single_feature{}
 .main_feature .single_feature:hover .single_feature_icon{
-    border-color:#e74c3c;
+    border-color:#9C6644;
     transform: rotate(45deg);
 }
 .main_feature .single_feature:hover .single_feature_icon i{
     transform: rotate(-45deg);
 }
 .main_feature .single_feature:hover h4{
-    color:#e74c3c;
+    color:#9C6644;
 }
 .main_feature .single_feature .single_feature_icon{
     border:1px solid #ddd;
@@ -868,7 +868,7 @@ input::-ms-input-placeholder {
 }
 .main_feature .single_feature i{
     margin-bottom:30px;
-    color:#e74c3c;
+    color:#9C6644;
     transition: all 0.6s;
 }
 .main_feature .single_feature h4{
@@ -882,7 +882,7 @@ input::-ms-input-placeholder {
 
 }
 .main_history .single_history_content .head_title h2{
-    border-left:6px solid #e74c3c;
+    border-left:6px solid #9C6644;
     padding-left: 30px;
 }
 
@@ -896,7 +896,7 @@ input::-ms-input-placeholder {
 }
 .main_service .head_title h2{
     margin-right: 12%;
-    border-right: 6px solid #e74c3c;
+    border-right: 6px solid #9C6644;
     color:#fff;
     padding-right: 5%;
 }
@@ -919,7 +919,7 @@ input::-ms-input-placeholder {
     height: 70px;
     line-height: 70px;
     text-align: center;
-    color:#e74c3c;
+    color:#9C6644;
     position: relative;
     z-index: 9;
     border:5px solid rgba(0, 0, 0, 0.2);
@@ -931,7 +931,7 @@ input::-ms-input-placeholder {
     width: 96%;
 }
 .main_service .single_service.single_service_text .single_service_right_text h4{
-    color:#e74c3c;
+    color:#9C6644;
 }
 .main_service .single_service.single_service_text .single_service_right_text p{
     color:#999999;
@@ -949,7 +949,7 @@ input::-ms-input-placeholder {
 }
 button.btn-md:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus{
     outline:none;
-    color:#e74c3c;
+    color:#9C6644;
 }
 button.btn-md {
     text-align: center;
@@ -961,12 +961,12 @@ button.btn-md {
     margin-top: 0px;
     background-color: transparent;
     transition: .5s;
-    border: 0px solid #e74c3c;
+    border: 0px solid #9C6644;
     font-family: 'montserratregular';
 }
 button.btn-md:hover {
     background-color: transparent;
-    color: #e74c3c;
+    color: #9C6644;
     text-decoration: none;
     border: 0px solid #f4720a;
 }
@@ -1042,7 +1042,7 @@ button.btn-md:hover {
     background: transparent;
 }
 .grid_item_overlay a:hover i{
-    color:#e74c3c;
+    color:#9C6644;
     background: #fff;
 }
 
@@ -1068,7 +1068,7 @@ button.btn-md:hover {
     padding: 10% 20%;
 }
 .single_study_text .s_study_icon{
-    background: #e74c3c;
+    background: #9C6644;
     width:60px;
     height: 60px;
     line-height: 60px;
@@ -1137,16 +1137,16 @@ button.btn-md:hover {
 
 }
 .pricing_business .pricing_head{
-    background:#e74c3c;
+    background:#9C6644;
 }
 .pricing_business .pricing_head .p_r{
-    color:#e74c3c;
+    color:#9C6644;
 }
 .pricing_business .pricing_head h3{
     color:#fff;
 }
 .pricing_business .btn-md{
-    background: #e74c3c;
+    background: #9C6644;
 }
 
 
@@ -1321,7 +1321,7 @@ li .single_team_text h4{
     margin-bottom: .0rem;
     display: inline-block;
     text-transform:none ;
-    color:#e74c3c;
+    color:#9C6644;
 }
 li .single_team_text p{
     color:#fff;
@@ -1522,7 +1522,7 @@ li .single_team_text p{
     margin-top:10px;
 }
 .main_footer .flowus a i:hover{
-    color:#e74c3c;
+    color:#9C6644;
 }
 
 .copyright_text{
@@ -1540,7 +1540,7 @@ li .single_team_text p{
 }
 .copyright_text p a{
     padding:0px 10px;
-    color:#e74c3c;
+    color:#9C6644;
 }
 
 
@@ -1565,7 +1565,7 @@ li .single_team_text p{
 }
 
 .scrollup:hover {
-    background: #e74c3c;
+    background: #9C6644;
     opacity: 1;
 }
 
