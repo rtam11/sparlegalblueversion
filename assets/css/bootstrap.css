@@ -4275,6 +4275,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-width: 1px 0 0;
 }
 .navbar-brand {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   float: left;
   padding: 0px;
   font-size: 18px;
