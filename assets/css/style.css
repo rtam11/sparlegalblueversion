@@ -189,7 +189,7 @@ h3 {
 h4 {
    font-family: 'Labrada', sans-serif;
    font-weight: 600;
-    color:#ddb892;
+    color:#92b7dd;
     font-size: 1.286rem;
     line-height: 2rem;
     margin-bottom: 1rem;
@@ -322,7 +322,7 @@ Separator
     width: 10px;
     height: 10px;
     margin: 20px auto;
-    background: #7f5539;
+    background: #39637f;
     position: relative;
     display: inline-block;
     border-radius: 50%;
@@ -434,11 +434,11 @@ Button
     padding: 1.125rem 3rem;
 }
 .btn-default:hover{
-    background: #7f5539;
-    border:1px solid #7f5539;
+    background: #39637f;
+    border:1px solid #39637f;
 }
 .btn-lg{
-    background: #7f5539;
+    background: #39637f;
     padding: 1.125rem 3rem;
 }
 .btn-md{
@@ -924,7 +924,7 @@ input::-ms-input-placeholder {
 
 .main_service .single_service.single_service_text {
     margin-right:0px;
-    background: #ddb892;
+    background: #92b7dd;
 }
 .main_service .single_service.single_service_text .single_service_icon i{
     background: #f4f5f9;
