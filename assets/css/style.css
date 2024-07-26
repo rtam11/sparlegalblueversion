@@ -749,7 +749,7 @@ input::-ms-input-placeholder {
     height: 40px;
     line-height: 40px;
     color:#000;
-    background: #716a65;
+    background: #656c71;
     float: left;
     position: absolute;
     z-index: 999;
@@ -763,7 +763,7 @@ input::-ms-input-placeholder {
     height: 40px;
     line-height: 40px;
     color: #000;
-    background: #716a65;
+    background: #656c71;
     float: right;
     position: absolute;
     z-index: 999;
